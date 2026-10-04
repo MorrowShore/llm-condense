@@ -4,21 +4,23 @@ A skill for concise, professional AI responses. Preserves accuracy, natural
 grammar, and necessary detail. Inspired by
 [Caveman](https://github.com/JuliusBrussee/caveman), without the persona.
 
-## Install in Codex
+Save tokens and speed up operations with no impact on code quality.
 
-Copy [SKILL.md](SKILL.md) to `~/.codex/skills/llm-condense/SKILL.md`, or
-`$CODEX_HOME/skills/llm-condense/SKILL.md` if configured.
+## Install & Use In Project (recommended)
 
-Windows default: `%USERPROFILE%\.codex\skills\llm-condense\SKILL.md`.
+Tell your AI the following:
 
-## Use
+```
+Install the LLM-Condense skill (https://github.com/MorrowShore/llm-condense), start using the skill, and add a reminder in the project's agents.md to always use the skill.
+```
 
-- Enable: "Use llm-condense for this conversation."
-- One passage: "Use llm-condense to revise this text: ..."
-- Disable: "Turn off llm-condense."
+## Install & Use Globally
 
-Requested depth and format take precedence over brevity. This skill guides output
-style; it does not compress existing context or guarantee token savings.
+Tell your AI the following:
+
+```
+Install the LLM-Condense skill (https://github.com/MorrowShore/llm-condense) globally so it becomes accessible to all current and future projects, start using the skill, and add a reminder in the global agents.md to always use the skill in every project.
+```
 
 ## License
 
